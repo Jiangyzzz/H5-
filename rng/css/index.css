@@ -1,0 +1,117 @@
+/*header开始*/
+body{
+    background-image: url("../image/rng_01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clr{
+    clear: both;
+}
+#header ul li{
+    float: left;
+}
+ul:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.header_ctn .nav{
+    float: right;
+}
+.header_ctn{
+    width:1600px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    color: white;
+}
+.header_ctn .logo{
+    font-size: 40px;
+    font-family:'ActionJackson';
+    padding-top: 3px;
+}
+.header_ctn input{
+    width: 468px;
+    height: 28px;
+    border: 0;
+    background-color: rgba(255,255,255,0.1);
+    margin: 0 0 0 191px;
+    background-image: url("../image/search.png");
+    background-position: 435px -1px;
+    background-repeat: no-repeat;
+
+}
+
+.header_ctn ul li{
+    font-size: 28px;
+    font-family:'ruibo1b334ba2a920527';
+    margin: 0 20px 0 60px;
+}
+.header_ctn a{
+    color: white;
+
+}
+.header_ctn li:nth-last-child(1){
+    font-size: 20px;
+}
+/*content开始*/
+.ctn_box{
+    width: 1600px;
+    margin: 0 auto;
+}
+.ctn_box .left_ctn{
+    font-size: 40px;
+    color: white;
+}
+.left_ctn dl, .left_ctn dd{
+    width:247px ;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 64px ;
+}
+.left_ctn dl dd a{
+    color: white;
+}
+.left_ctn dt {
+    font-family:'Malapropism';
+}
+.left_ctn dd {
+}
+.right_ctn{
+    position: relative;
+}
+.right_ctn .ipt{
+    width: 230px;
+    height: 32px;
+    background-color: rgba(255,255,255,0.4);
+    border: 0;
+    margin: 15px 0;
+    color: white;
+}
+.right_ctn span{
+    color: white;
+    font-size: 12px;
+    margin-left: 170px;
+
+}
+
+::-webkit-input-placeholder{
+    padding-left: 7px;
+    color: rgba(255,255,255,0.4);
+}
+.ipt:nth-last-of-type(1){
+        margin:12px 0 ;
+}
+.right_ctn form{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}

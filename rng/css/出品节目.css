@@ -1,0 +1,84 @@
+/*header开始*/
+body{
+    background-color: white;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clr{
+    clear: both;
+}
+#header{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    background-image: url("../image/RNG.png");
+    background-size: 195px 120px;
+    background-repeat: no-repeat;
+    background-position:25px 48px ;
+}
+#header ul li{
+    float: left;
+}
+ul:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.header_ctn .nav{
+    float: right;
+}
+.header_ctn{
+    width: 1600px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    color: white;
+}
+.header_ctn .logo{
+    font-size: 40px;
+    font-family:'ActionJackson';
+    padding-top: 3px;
+}
+.header_ctn input{
+    width: 468px;
+    height: 28px;
+    border: 0;
+    background-color:white;
+    margin: 0 0 0 191px;
+    background-image: url("../image/search.png");
+    background-position: 435px -1px;
+    background-repeat: no-repeat;
+
+}
+
+.header_ctn ul li{
+    font-size: 28px;
+    font-family:'ruibo1b334ba2a920527';
+    margin: 0 20px 0 60px;
+}
+.header_ctn a{
+    color: white;
+
+}
+.header_ctn li:nth-last-child(1){
+    font-size: 20px;
+}
+#content {
+    background-image: url("../image/jayz4.jpg");
+    background-size:100% 100% ;
+    width: 1920px;
+    height:776px;
+    position: relative;
+}
+#content img{
+    width: 750px;
+    height: 435px;
+    position: absolute;
+    top: 16%;
+    left: 59%;
+}

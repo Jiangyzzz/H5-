@@ -1,0 +1,90 @@
+/*header开始*/
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clr{
+    clear: both;
+}
+#content .left_ctn{
+    width: 720px;
+    height: 100%;
+    background-image:url("../image/注册2.1.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#content .right_ctn{
+    width: 1200px;
+    height: 100%;
+    background-image:url("../image/注册2.2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    float: right;
+}
+.right_ctn .sign_in{
+    width: 482px;
+    height: 100%;
+    margin:  120px auto auto auto ;
+}
+
+.right_ctn .sign_in p:nth-child(1) {
+    font-size: 45px;
+    color: #B4926A;
+    height: 100px;
+    line-height: 100px;
+}
+.right_ctn .sign_in p:nth-child(2){
+    font-size: 35px;
+    color: #B4926A;
+    height: 120px;
+    line-height: 120px;
+}
+.right_ctn .sign_in input{
+    width: 478px;
+    height: 50px;
+    border:1px solid  #B4926A;
+    margin: 20px 0;
+    background-color: rgba(255,255,255,.1);
+    font-size: 20px;
+    border-radius: 5px;
+}
+.right_ctn .sign_in .ipt select {
+    width: 154px;
+    height: 52px;
+    border:1px solid  #B4926A;
+    background-color: rgba(255,255,255,.1);
+    font-size: 20px;
+    line-height:52px;
+    border-radius: 5px;
+    color: #B4926A;
+}
+.right_ctn .sign_in input.tel{
+    width: 305px;
+    height: 50px;
+    border:1px solid  #B4926A;
+    margin-left: 15px;
+}
+.right_ctn .sign_in input.submit{
+    width: 478px;
+    height: 60px;
+    border:1px solid  #B4926A;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height:60px;
+    color: #B4926A;
+
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 20px;
+    height: 50px;
+    line-height:50px;
+    color: #B4926A;
+    }

@@ -1,0 +1,93 @@
+/*header开始*/
+body{
+
+    background-image: url("../image/rng春季赛冠军.jpg");
+
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clr{
+    clear: both;
+}
+#header ul li{
+    float: left;
+}
+ul:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.header_ctn .nav{
+    float: right;
+}
+.header_ctn{
+    width: 1600px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    color: white;
+}
+.header_ctn .logo{
+    font-size: 40px;
+    font-family:'ActionJackson';
+    padding-top: 3px;
+}
+.header_ctn input{
+    width: 468px;
+    height: 28px;
+    border: 0;
+    background-color: rgba(255,255,255,0.1);
+    margin: 0 0 0 191px;
+    background-image: url("../image/search.png");
+    background-position: 435px -1px;
+    background-repeat: no-repeat;
+
+}
+
+.header_ctn ul li{
+    font-size: 28px;
+    font-family:'ruibo1b334ba2a920527';
+    margin: 0 20px 0 60px;
+}
+.header_ctn a{
+    color: white;
+
+}
+.header_ctn li:nth-last-child(1){
+    font-size: 20px;
+}
+/*content开始*/
+#content{
+    position: relative;
+}
+.ctn_one, .ctn_two, .ctn_three ,.ctn_four{
+    font-size: 18px;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+}
+.ctn_one{
+    position: absolute;
+    top: 148px;
+    left: 113px;
+}
+.ctn_two{
+    position: absolute;
+    top: 148px;
+    left: 1455px;
+}
+.ctn_three{
+    position: absolute;
+    top: 760px;
+    left: 328px;
+}
+.ctn_four{
+    position: absolute;
+    top: 760px;
+    left: 1326px;
+}
